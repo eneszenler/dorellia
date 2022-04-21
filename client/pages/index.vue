@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div class="col-12 p-5">
-      <h1>Welcome to d'Orellia</h1>
+      <PageTitle pageTitle="Starters" />
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
         iure ipsa distinctio, vitae vel architecto id atque adipisci sequi

@@ -1,9 +1,8 @@
 <template>
   <div class="row">
     <div class="col-12 p-5">
-      <h1>Desserts</h1>
+      <PageTitle pageTitle="Desserts" />
       <p>...</p>
-      <button type="button" class="btn btn-primary">Primary</button>
     </div>
   </div>
 </template>
