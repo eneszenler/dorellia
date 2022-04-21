@@ -10,9 +10,13 @@ $primary: #cf9b38;
 body {
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
-  background-color: $body-bg;
   h1 {
     font-family: 'Rochester', cursive;
     // font-family: 'Vibur', cursive;
   }
+  .container {
+    padding-top: 56px;
+  }
 }
+
+@import 'ornament';

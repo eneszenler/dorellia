@@ -1,0 +1,38 @@
+.ornament {
+  display: block;
+  content: '';
+  height: 1px;
+  width: 94px;
+  background-color: $primary;
+  position: absolute;
+}
+.left-ornament {
+  position: relative;
+  height: 1px;
+  background-color: $primary;
+  &::before {
+    @extend .ornament;
+    bottom: 8px;
+    right: 8px;
+  }
+  &::after {
+    @extend .ornament;
+    top: 8px;
+    right: -8px;
+  }
+}
+.right-ornament {
+  position: relative;
+  height: 1px;
+  background-color: $primary;
+  &::before {
+    @extend .ornament;
+    bottom: 8px;
+    left: 8px;
+  }
+  &::after {
+    @extend .ornament;
+    top: 8px;
+    left: -8px;
+  }
+}
