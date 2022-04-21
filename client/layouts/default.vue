@@ -4,6 +4,7 @@
       <Logo />
       <TopMenu />
       <Nuxt />
+      <Footer />
     </div>
   </div>
 </template>
